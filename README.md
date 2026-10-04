@@ -1,7 +1,7 @@
 # 💫 About Me:
 Hey! I'm a Computer Engineering student who loves turning ideas into working software.
 💡 I enjoy:
-- Coding in C, Python, and Java  
+- Coding in C, Python, and Java  .
 - Building web apps with HTML, CSS, JavaScript  
 -  Exploring problem-solving and data structures 
   
