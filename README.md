@@ -97,8 +97,6 @@
   <img src="./assets/section-tech.svg" width="100%" alt="> TECH_STACK" />
 </p>
 
-<br /><br />
-
 <table width="100%">
   <tr>
     <td width="28%" valign="top">
