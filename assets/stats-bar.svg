@@ -62,7 +62,7 @@
     <!-- Pixel Indicator -->
     <rect x="108" y="16" width="8" height="4" fill="#39D353"/>
     <text x="112" y="38" class="lbl">TOTAL COMMITS</text>
-    <text x="112" y="78" class="val" filter="url(#neonPulse)">450</text>
+    <text x="112" y="78" class="val" filter="url(#neonPulse)">354</text>
     <text x="112" y="102" class="subtag">[CONTRIBUTIONS]</text>
   </g>
 
@@ -70,7 +70,7 @@
   <g>
     <rect x="333" y="16" width="8" height="4" fill="#1F6FEB"/>
     <text x="337" y="38" class="lbl">PULL REQUESTS</text>
-    <text x="337" y="78" class="val" fill="#F0F6FC" style="fill: #F0F6FC;">28</text>
+    <text x="337" y="78" class="val" fill="#F0F6FC" style="fill: #F0F6FC;">143</text>
     <text x="337" y="102" class="subtag" style="fill: #1F6FEB;">[MERGED + ACTIVE]</text>
   </g>
 
@@ -86,7 +86,7 @@
   <g>
     <rect x="783" y="16" width="8" height="4" fill="#39D353"/>
     <text x="787" y="38" class="lbl">BEST STREAK</text>
-    <text x="787" y="78" class="val" filter="url(#neonPulse)">18d</text>
+    <text x="787" y="78" class="val" filter="url(#neonPulse)">7d</text>
     <text x="787" y="102" class="subtag">[ACTIVE DAYS]</text>
   </g>
 
