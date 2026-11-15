@@ -40,6 +40,7 @@
 <br /><br />
 
 <!-- TOP 4 PROJECTS: AGRIVYAAN, SWASTHYA AI, HACKNEXT, SYNDEO -->
+<img src="assets/headers/header-projects.svg" width="100%" alt="Section: Projects" />
 <table width="100%">
   <tr>
     <!-- 1. AgriVyaan -->
