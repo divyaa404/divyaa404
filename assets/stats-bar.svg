@@ -31,7 +31,7 @@
   <!-- COLUMN 1: ALL-TIME CONTRIBUTIONS -->
   <rect x="108" y="16" width="8" height="4" fill="#39D353"/>
   <text x="112" y="38" class="lbl">ALL-TIME CONTRIBUTIONS</text>
-  <text x="112" y="78" class="val" filter="url(#neonPulse)">364</text>
+  <text x="112" y="78" class="val" filter="url(#neonPulse)">365</text>
   <text x="112" y="102" class="subtag">[COMMITS + PRs + ISSUES]</text>
 
   <!-- COLUMN 2: PULL REQUESTS -->
