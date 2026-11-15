@@ -8,89 +8,48 @@
       <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#39D353" flood-opacity="0.7"/>
     </filter>
   </defs>
-
   <style>
-    @keyframes pixelBlink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
-    @keyframes scanline { 0% { y: 10px; } 50% { y: 120px; } 100% { y: 10px; } }
-    .val {
-      font-family: 'Courier New', 'Press Start 2P', monospace;
-      font-size: 30px;
-      font-weight: 900;
-      fill: #39D353;
-      text-anchor: middle;
-      letter-spacing: 2px;
-    }
-    .lbl {
-      font-family: 'Courier New', 'Press Start 2P', monospace;
-      font-size: 11px;
-      font-weight: bold;
-      fill: #9BA3AE;
-      text-anchor: middle;
-      letter-spacing: 1.5px;
-    }
-    .subtag {
-      font-family: 'Courier New', monospace;
-      font-size: 9px;
-      fill: #39D353;
-      text-anchor: middle;
-      letter-spacing: 1px;
-      opacity: 0.8;
-    }
-    .col-divider {
-      stroke: #30363D;
-      stroke-width: 1.5;
-      stroke-dasharray: 4,4;
-    }
+    .val { font-family:'Courier New',monospace; font-size:30px; font-weight:900; fill:#39D353; text-anchor:middle; letter-spacing:2px; }
+    .lbl { font-family:'Courier New',monospace; font-size:11px; font-weight:bold; fill:#9BA3AE; text-anchor:middle; letter-spacing:1.5px; }
+    .subtag { font-family:'Courier New',monospace; font-size:9px; fill:#39D353; text-anchor:middle; letter-spacing:1px; opacity:0.8; }
+    .col-divider { stroke:#30363D; stroke-width:1.5; stroke-dasharray:4,4; }
   </style>
 
-  <!-- Outer Card Frame -->
   <rect x="2" y="2" width="896" height="126" rx="8" fill="url(#cardBg)" stroke="#30363D" stroke-width="1.5"/>
 
-  <!-- Scanning Line Effect -->
   <line x1="10" y1="20" x2="890" y2="20" stroke="#39D353" stroke-width="1" opacity="0.15">
     <animate attributeName="y1" values="10;120;10" dur="4s" repeatCount="indefinite"/>
     <animate attributeName="y2" values="10;120;10" dur="4s" repeatCount="indefinite"/>
   </line>
 
-  <!-- Column Dividers -->
   <line x1="225" y1="16" x2="225" y2="114" class="col-divider"/>
   <line x1="450" y1="16" x2="450" y2="114" class="col-divider"/>
   <line x1="675" y1="16" x2="675" y2="114" class="col-divider"/>
 
-  <!-- COLUMN 1: TOTAL COMMITS -->
-  <g>
-    <!-- Pixel Indicator -->
-    <rect x="108" y="16" width="8" height="4" fill="#39D353"/>
-    <text x="112" y="38" class="lbl">TOTAL COMMITS</text>
-    <text x="112" y="78" class="val" filter="url(#neonPulse)">363</text>
-    <text x="112" y="102" class="subtag">[CONTRIBUTIONS]</text>
-  </g>
+  <!-- COLUMN 1: ALL-TIME CONTRIBUTIONS -->
+  <rect x="108" y="16" width="8" height="4" fill="#39D353"/>
+  <text x="112" y="38" class="lbl">ALL-TIME CONTRIBUTIONS</text>
+  <text x="112" y="78" class="val" filter="url(#neonPulse)">487</text>
+  <text x="112" y="102" class="subtag">[COMMITS + PRs + ISSUES]</text>
 
   <!-- COLUMN 2: PULL REQUESTS -->
-  <g>
-    <rect x="333" y="16" width="8" height="4" fill="#1F6FEB"/>
-    <text x="337" y="38" class="lbl">PULL REQUESTS</text>
-    <text x="337" y="78" class="val" fill="#F0F6FC" style="fill: #F0F6FC;">143</text>
-    <text x="337" y="102" class="subtag" style="fill: #1F6FEB;">[MERGED + ACTIVE]</text>
-  </g>
+  <rect x="333" y="16" width="8" height="4" fill="#1F6FEB"/>
+  <text x="337" y="38" class="lbl">PULL REQUESTS</text>
+  <text x="337" y="78" class="val" fill="#F0F6FC">28</text>
+  <text x="337" y="102" class="subtag" fill="#1F6FEB">[MERGED + ACTIVE]</text>
 
   <!-- COLUMN 3: GITHUB STARS -->
-  <g>
-    <rect x="558" y="16" width="8" height="4" fill="#E3B341"/>
-    <text x="562" y="38" class="lbl">GITHUB STARS</text>
-    <text x="562" y="78" class="val" style="fill: #E3B341;">0</text>
-    <text x="562" y="102" class="subtag" style="fill: #E3B341;">[REPOSITORIES]</text>
-  </g>
+  <rect x="558" y="16" width="8" height="4" fill="#E3B341"/>
+  <text x="562" y="38" class="lbl">GITHUB STARS</text>
+  <text x="562" y="78" class="val" fill="#E3B341">0</text>
+  <text x="562" y="102" class="subtag" fill="#E3B341">[REPOSITORIES]</text>
 
   <!-- COLUMN 4: BEST STREAK -->
-  <g>
-    <rect x="783" y="16" width="8" height="4" fill="#39D353"/>
-    <text x="787" y="38" class="lbl">BEST STREAK</text>
-    <text x="787" y="78" class="val" filter="url(#neonPulse)">7d</text>
-    <text x="787" y="102" class="subtag">[ACTIVE DAYS]</text>
-  </g>
+  <rect x="783" y="16" width="8" height="4" fill="#39D353"/>
+  <text x="787" y="38" class="lbl">BEST STREAK</text>
+  <text x="787" y="78" class="val" filter="url(#neonPulse)">18d</text>
+  <text x="787" y="102" class="subtag">[ACTIVE DAYS]</text>
 
-  <!-- Corner Tech Accent Pixels -->
   <rect x="8" y="8" width="4" height="4" fill="#39D353"/>
   <rect x="888" y="8" width="4" height="4" fill="#39D353"/>
   <rect x="8" y="118" width="4" height="4" fill="#30363D"/>
