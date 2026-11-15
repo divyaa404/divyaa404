@@ -35,16 +35,62 @@
 
 <br/>
 
-<p align="center">
-  <img src="./assets/section-projects.svg" width="100%" alt="> PROJECTS" />
-</p>
+<img src="assets/headers/header-projects.svg" width="100%" alt="Section: Projects" />
 
-| <img src="./assets/icon-agrivyaan.svg" width="60" alt="AgriVyaan" /><br/><br/>**[AgriVyaan](https://github.com/divyaa404/AgriVyaan)**<br/>Edge-AI autonomous drone system for real-time crop disease detection and offline-first agricultural intelligence.<br/><br/>`Python` `Flutter` `YOLO` `Edge AI` `Supabase`<br/><br/>[**→ View Repository**](https://github.com/divyaa404/AgriVyaan) | <img src="./assets/icon-campus360.svg" width="60" alt="Campus360" /><br/><br/>**[Campus360](https://github.com/divyaa404/Campus360)**<br/>Comprehensive college management portal automating institutional workflows, academic analytics, and scheduling.<br/><br/>`React` `Node.js` `Express` `MongoDB`<br/><br/>[**→ View Repository**](https://github.com/divyaa404/Campus360) |
-| :---: | :---: |
-| <img src="./assets/icon-syndeo.svg" width="60" alt="SYNDEO" /><br/><br/>**[SYNDEO](https://github.com/divyaa404/SYNDEO)**<br/>Decentralized personal identity and data graph with privacy-preserving attribute attestations and unified developer footprints.<br/><br/>`Next.js` `FastAPI` `PostgreSQL` `Graph`<br/><br/>[**→ View Repository**](https://github.com/divyaa404/SYNDEO) | <img src="./assets/icon-swasthya.svg" width="60" alt="Swasthya AI" /><br/><br/>**[Swasthya AI](https://github.com/divyaa404/Swasthya-AI)**<br/>AI-powered health intelligence platform for symptom analysis, medical guidance, and accessible healthcare insights.<br/><br/>`Python` `AI/ML` `FastAPI` `Computer Vision`<br/><br/>[**→ View Repository**](https://github.com/divyaa404/Swasthya-AI) |
-| :---: | :---: |
+<br /><br />
 
-<br/>
+<!-- TOP 4 PROJECTS: AGRIVYAAN, SWASTHYA AI, HACKNEXT, SYNDEO -->
+<table width="100%">
+  <tr>
+    <!-- 1. AgriVyaan -->
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/indresh404/AgriVyaan">
+        <img src="https://github-readme-stats.shion.dev/api/pin/?username=indresh404&repo=AgriVyaan&theme=github_dark&bg_color=161B22&title_color=39D353&text_color=F0F6FC&icon_color=39D353&border_color=30363D&show_owner=false" width="100%" alt="AgriVyaan" />
+      </a>
+      <p align="left">
+        <b><a href="https://github.com/indresh404/AgriVyaan">AgriVyaan / AgriSwarm</a></b><br />
+        <sub>Autonomous agricultural drone-based crop monitoring and targeted disease detection system with offline-first agricultural intelligence.</sub><br />
+        <code>Flutter</code> &nbsp;<code>Python</code> &nbsp;<code>YOLO11n</code> &nbsp;<code>ArduPilot</code> &nbsp;<code>MAVLink</code> &nbsp;<code>Supabase</code>
+      </p>
+    </td>
+    <!-- 2. Swasthya AI -->
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/indresh404/Swasthya-AI">
+        <img src="https://github-readme-stats.shion.dev/api/pin/?username=indresh404&repo=Swasthya-AI&theme=github_dark&bg_color=161B22&title_color=39D353&text_color=F0F6FC&icon_color=39D353&border_color=30363D&show_owner=false" width="100%" alt="Swasthya AI" />
+      </a>
+      <p align="left">
+        <b><a href="https://github.com/indresh404/Swasthya-AI">Swasthya AI</a></b><br />
+        <sub>Voice-first multilingual health platform powered by a Neo4j memory graph, connecting symptoms, family history, and recovery over time.</sub><br />
+        <code>TypeScript</code> &nbsp;<code>Neo4j</code> &nbsp;<code>Sarvam AI</code> &nbsp;<code>FastAPI</code> &nbsp;<code>Render Workflows</code>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <!-- 3. HackNext -->
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/indresh404/HackNext">
+        <img src="https://github-readme-stats.shion.dev/api/pin/?username=indresh404&repo=HackNext&theme=github_dark&bg_color=161B22&title_color=39D353&text_color=F0F6FC&icon_color=39D353&border_color=30363D&show_owner=false" width="100%" alt="HackNext" />
+      </a>
+      <p align="left">
+        <b><a href="https://github.com/indresh404/HackNext">HackNext</a></b><br />
+        <sub>Offline-first, self-hostable hackathon platform for teams, submissions, jury evaluation, Z-score normalization, voting, and verifiable certificates.</sub><br />
+        <code>TypeScript</code> &nbsp;<code>Next.js</code> &nbsp;<code>Tailwind CSS</code> &nbsp;<code>PostgreSQL</code>
+      </p>
+    </td>
+    <!-- 4. SYNDEO -->
+    <td width="50%" align="center" valign="top">
+      <a href="https://github.com/indresh404/SYNDEO">
+        <img src="https://github-readme-stats.shion.dev/api/pin/?username=indresh404&repo=SYNDEO&theme=github_dark&bg_color=161B22&title_color=39D353&text_color=F0F6FC&icon_color=39D353&border_color=30363D&show_owner=false" width="100%" alt="SYNDEO" />
+      </a>
+      <p align="left">
+        <b><a href="https://github.com/indresh404/SYNDEO">SYNDEO</a></b><br />
+        <sub>User-controlled personal data layer turning scattered documents into evidence-linked memory for answering questions, autofilling forms &amp; selective sharing.</sub><br />
+        <code>TypeScript</code> &nbsp;<code>Next.js</code> &nbsp;<code>FastAPI</code> &nbsp;<code>Vector Memory</code>
+      </p>
+    </td>
+  </tr>
+</table>
+
 
 <p align="center">
   <img src="./assets/section-tech.svg" width="100%" alt="> TECH_STACK" />
