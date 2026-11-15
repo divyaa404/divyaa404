@@ -50,8 +50,6 @@
   <img src="./assets/section-tech.svg" width="100%" alt="> TECH_STACK" />
 </p>
 
-<img src="assets/headers/header-stack.svg" width="100%" alt="Section: Tech Stack" />
-
 <br /><br />
 
 <table width="100%">
