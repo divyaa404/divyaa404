@@ -17,11 +17,13 @@
 
   <rect x="2" y="2" width="896" height="126" rx="8" fill="url(#cardBg)" stroke="#30363D" stroke-width="1.5"/>
 
+  <!-- Animated scan line -->
   <line x1="10" y1="20" x2="890" y2="20" stroke="#39D353" stroke-width="1" opacity="0.15">
     <animate attributeName="y1" values="10;120;10" dur="4s" repeatCount="indefinite"/>
     <animate attributeName="y2" values="10;120;10" dur="4s" repeatCount="indefinite"/>
   </line>
 
+  <!-- Column Dividers -->
   <line x1="225" y1="16" x2="225" y2="114" class="col-divider"/>
   <line x1="450" y1="16" x2="450" y2="114" class="col-divider"/>
   <line x1="675" y1="16" x2="675" y2="114" class="col-divider"/>
@@ -29,13 +31,13 @@
   <!-- COLUMN 1: ALL-TIME CONTRIBUTIONS -->
   <rect x="108" y="16" width="8" height="4" fill="#39D353"/>
   <text x="112" y="38" class="lbl">ALL-TIME CONTRIBUTIONS</text>
-  <text x="112" y="78" class="val" filter="url(#neonPulse)">487</text>
+  <text x="112" y="78" class="val" filter="url(#neonPulse)">364</text>
   <text x="112" y="102" class="subtag">[COMMITS + PRs + ISSUES]</text>
 
   <!-- COLUMN 2: PULL REQUESTS -->
   <rect x="333" y="16" width="8" height="4" fill="#1F6FEB"/>
   <text x="337" y="38" class="lbl">PULL REQUESTS</text>
-  <text x="337" y="78" class="val" fill="#F0F6FC">28</text>
+  <text x="337" y="78" class="val" fill="#F0F6FC">143</text>
   <text x="337" y="102" class="subtag" fill="#1F6FEB">[MERGED + ACTIVE]</text>
 
   <!-- COLUMN 3: GITHUB STARS -->
@@ -47,9 +49,10 @@
   <!-- COLUMN 4: BEST STREAK -->
   <rect x="783" y="16" width="8" height="4" fill="#39D353"/>
   <text x="787" y="38" class="lbl">BEST STREAK</text>
-  <text x="787" y="78" class="val" filter="url(#neonPulse)">18d</text>
+  <text x="787" y="78" class="val" filter="url(#neonPulse)">7d</text>
   <text x="787" y="102" class="subtag">[ACTIVE DAYS]</text>
 
+  <!-- Corner pixels -->
   <rect x="8" y="8" width="4" height="4" fill="#39D353"/>
   <rect x="888" y="8" width="4" height="4" fill="#39D353"/>
   <rect x="8" y="118" width="4" height="4" fill="#30363D"/>
