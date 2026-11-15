@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="100%" height="240">
+  <defs>
+    <linearGradient id="achieveBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161B22"/>
+      <stop offset="100%" stop-color="#0E1217"/>
+    </linearGradient>
+    <filter id="achieveGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#39D353" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseLed { 0%, 100% { opacity: 0.9; } 50% { opacity: 0.3; } }
+    .term-head { font-family: 'Courier New', monospace; font-size: 11px; fill: #9BA3AE; }
+    .item-title { font-family: 'Courier New', 'Press Start 2P', monospace; font-size: 13px; font-weight: bold; fill: #F0F6FC; }
+    .item-tag { font-family: 'Courier New', monospace; font-size: 11px; fill: #39D353; font-weight: bold; }
+    .item-desc { font-family: 'Courier New', monospace; font-size: 11px; fill: #8B949E; }
+    .verified-badge { font-family: 'Courier New', monospace; font-size: 9px; fill: #1F6FEB; font-weight: bold; }
+    .led { animation: pulseLed 1.6s infinite; }
+  </style>
+
+  <!-- Main Card Container -->
+  <rect x="2" y="2" width="896" height="236" rx="8" fill="url(#achieveBg)" stroke="#30363D" stroke-width="1.5"/>
+
+  <!-- Top Terminal Header Bar -->
+  <path d="M2 10 C2 5, 5 2, 10 2 L890 2 C895 2, 898 5, 898 10 L898 28 L2 28 Z" fill="#21262D" stroke="#30363D" stroke-width="1"/>
+  <circle cx="16" cy="15" r="4" fill="#39D353" class="led"/>
+  <text x="28" y="19" class="term-head">syslog - /var/log/achievements.verified --status=VALIDATED</text>
+
+  <!-- Left Column Items -->
+  <!-- Item 1 -->
+  <g transform="translate(24, 46)">
+    <rect x="0" y="0" width="8" height="8" fill="#39D353"/>
+    <text x="16" y="8" class="item-title">GLOBAL HACKATHON TRACK WINNER</text>
+    <text x="16" y="22" class="item-desc">First Place in Global Innovation Track &amp; System Architecture</text>
+  </g>
+
+  <!-- Item 2 -->
+  <g transform="translate(24, 92)">
+    <rect x="0" y="0" width="8" height="8" fill="#1F6FEB"/>
+    <text x="16" y="8" class="item-title">TOP 25 GLOBAL DEVELOPER RANKING</text>
+    <text x="16" y="22" class="item-desc">Global Legend Tier (#5 DevTrack) • High Impact Metrics</text>
+  </g>
+
+  <!-- Item 3 -->
+  <g transform="translate(24, 138)">
+    <rect x="0" y="0" width="8" height="8" fill="#39D353"/>
+    <text x="16" y="8" class="item-title">2× NATIONAL HACKATHON WINNER</text>
+    <text x="16" y="22" class="item-desc">Champion in national-tier competitive engineering hackathons</text>
+  </g>
+
+  <!-- Item 4 -->
+  <g transform="translate(24, 184)">
+    <rect x="0" y="0" width="8" height="8" fill="#E3B341"/>
+    <text x="16" y="8" class="item-title">NSoC &apos;26 WINNER</text>
+    <text x="16" y="22" class="item-desc">National Summer of Code 2026 Winner for Open Source Excellence</text>
+  </g>
+
+  <!-- Divider Line -->
+  <line x1="460" y1="36" x2="460" y2="226" stroke="#30363D" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Right Column Items -->
+  <!-- Item 5 -->
+  <g transform="translate(480, 46)">
+    <rect x="0" y="0" width="8" height="8" fill="#39D353"/>
+    <text x="16" y="8" class="item-title">GSSoC &apos;26 CONTRIBUTOR (40+ PRs)</text>
+    <text x="16" y="22" class="item-desc">GirlScript Summer of Code 2026 • 40+ Production Pull Requests Merged</text>
+  </g>
+
+  <!-- Item 6 -->
+  <g transform="translate(480, 92)">
+    <rect x="0" y="0" width="8" height="8" fill="#1F6FEB"/>
+    <text x="16" y="8" class="item-title">NSoC &apos;26 PROJECT ADMIN</text>
+    <text x="16" y="22" class="item-desc">Open Source Mentor &amp; Project Administrator for national contributors</text>
+  </g>
+
+  <!-- Item 7 -->
+  <g transform="translate(480, 138)">
+    <rect x="0" y="0" width="8" height="8" fill="#E3B341"/>
+    <text x="16" y="8" class="item-title">NATIONAL HACKATHON FINALIST</text>
+    <text x="16" y="22" class="item-desc">Selected among top engineering teams across India</text>
+  </g>
+
+  <!-- Status Stamp -->
+  <g transform="translate(480, 184)">
+    <rect x="0" y="0" width="380" height="28" rx="4" fill="#10141A" stroke="#30363D" stroke-width="1"/>
+    <circle cx="14" cy="14" r="3.5" fill="#39D353"/>
+    <text x="26" y="18" class="verified-badge">[VERIFIED RECORD: 7/7 MILESTONES AUTHENTICATED]</text>
+  </g>
+</svg>

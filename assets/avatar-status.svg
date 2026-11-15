@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 30" width="170" height="30">
+  <defs>
+    <filter id="pGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#39D353" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="168" height="28" rx="4" fill="#161B22" stroke="#30363D" stroke-width="1.5"/>
+  <circle cx="16" cy="15" r="4" fill="#39D353" filter="url(#pGlow)">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="28" y="19" font-family="'Courier New', monospace" font-size="11" font-weight="bold" fill="#39D353" letter-spacing="1px">DEV // VERIFIED</text>
+  <rect x="156" y="11" width="6" height="8" fill="#1F6FEB"/>
+</svg>

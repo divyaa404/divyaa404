@@ -1,0 +1,41 @@
+name: Update Live Profile Telemetry
+
+on:
+  schedule:
+    - cron: '0 */6 * * *' # Auto-update every 6 hours with real-time GitHub data
+  workflow_dispatch:      # Allow manual refresh trigger in Actions tab
+  push:
+    branches:
+      - main
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  telemetry-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🛰️ Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: ⚙️ Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 📡 Fetch Real Live GitHub Stats & Generate Pixel SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USERNAME: 'indresh404'
+        run: |
+          node scripts/generate-stats.js
+
+      - name: 💾 Commit & Push Updated Live Telemetry
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "telemetry: sync live github statistics [skip ci]"
+          file_pattern: "assets/stats-bar.svg"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          commit_author: "github-actions[bot] <github-actions[bot]@users.noreply.github.com>"

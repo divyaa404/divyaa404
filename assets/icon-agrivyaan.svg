@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" width="72" height="72" shape-rendering="crispEdges">
+  <defs>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#39D353" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+  <!-- Card Background -->
+  <rect x="0" y="0" width="72" height="72" rx="10" fill="#161B22" stroke="#30363D" stroke-width="2"/>
+  
+  <!-- Subtle Grid Pattern in Icon -->
+  <path d="M12 20h48 M12 28h48 M12 36h48 M12 44h48 M12 52h48" stroke="#1F242C" stroke-width="1" shape-rendering="crispEdges"/>
+  <path d="M20 12v48 M28 12v48 M36 12v48 M44 12v48 M52 12v48" stroke="#1F242C" stroke-width="1" shape-rendering="crispEdges"/>
+
+  <!-- Pixel Drone Frame (Center Body) -->
+  <rect x="32" y="24" width="8" height="8" fill="#F0F6FC"/>
+  <rect x="34" y="26" width="4" height="4" fill="#39D353"/>
+
+  <!-- Drone Arms (Diagonal Pixel Arms) -->
+  <rect x="26" y="18" width="6" height="3" fill="#9BA3AE"/>
+  <rect x="40" y="18" width="6" height="3" fill="#9BA3AE"/>
+  <rect x="26" y="35" width="6" height="3" fill="#9BA3AE"/>
+  <rect x="40" y="35" width="6" height="3" fill="#9BA3AE"/>
+
+  <rect x="22" y="20" width="4" height="4" fill="#1F6FEB"/>
+  <rect x="46" y="20" width="4" height="4" fill="#1F6FEB"/>
+  <rect x="22" y="32" width="4" height="4" fill="#1F6FEB"/>
+  <rect x="46" y="32" width="4" height="4" fill="#1F6FEB"/>
+
+  <!-- Propellers (Animated Spin / Blink Effect) -->
+  <!-- Top Left Rotor -->
+  <rect x="18" y="16" width="12" height="2" fill="#39D353">
+    <animate attributeName="opacity" values="1;0.3;1" dur="0.25s" repeatCount="indefinite"/>
+  </rect>
+  <!-- Top Right Rotor -->
+  <rect x="42" y="16" width="12" height="2" fill="#39D353">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="0.25s" repeatCount="indefinite"/>
+  </rect>
+  <!-- Bottom Left Rotor -->
+  <rect x="18" y="38" width="12" height="2" fill="#39D353">
+    <animate attributeName="opacity" values="0.3;1;0.3" dur="0.25s" repeatCount="indefinite"/>
+  </rect>
+  <!-- Bottom Right Rotor -->
+  <rect x="42" y="38" width="12" height="2" fill="#39D353">
+    <animate attributeName="opacity" values="1;0.3;1" dur="0.25s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Sensor Beam / Scanning Cones (Animated scan line) -->
+  <polygon points="32,32 18,54 54,54 40,32" fill="#39D353" opacity="0.12">
+    <animate attributeName="opacity" values="0.08;0.25;0.08" dur="1.8s" repeatCount="indefinite"/>
+  </polygon>
+  <line x1="20" y1="46" x2="52" y2="46" stroke="#39D353" stroke-width="1.5" stroke-dasharray="2,2" opacity="0.8">
+    <animate attributeName="y1" values="36;52;36" dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="36;52;36" dur="1.8s" repeatCount="indefinite"/>
+  </line>
+
+  <!-- Pixel Crop Leaves Ground Level -->
+  <rect x="22" y="54" width="4" height="4" fill="#238636"/>
+  <rect x="26" y="52" width="4" height="6" fill="#39D353"/>
+  <rect x="34" y="50" width="4" height="8" fill="#39D353"/>
+  <rect x="42" y="52" width="4" height="6" fill="#238636"/>
+  <rect x="46" y="54" width="4" height="4" fill="#39D353"/>
+
+  <!-- Status LED -->
+  <circle cx="36" cy="28" r="1.5" fill="#39D353" filter="url(#glow)">
+    <animate attributeName="opacity" values="1;0.2;1" dur="0.8s" repeatCount="indefinite"/>
+  </circle>
+</svg>
