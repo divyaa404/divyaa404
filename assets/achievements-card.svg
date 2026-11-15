@@ -76,8 +76,8 @@
   <!-- Item 7 -->
   <g transform="translate(480, 138)">
     <rect x="0" y="0" width="8" height="8" fill="#E3B341"/>
-    <text x="16" y="8" class="item-title">EX-UI/UX INTERN @ ZENIX EV &amp; ATHLETE</text>
-    <text x="16" y="22" class="item-desc">2nd in 2,000m Steeplechase; 3rd in 10,000m; Zenix EV Automotive UI/UX</text>
+    <text x="16" y="8" class="item-title">ATHLETE @ SLRTCE</text>
+    <text x="16" y="22" class="item-desc">2nd Place — 2,000m Steeplechase; 3rd Place — 10,000m Race</text>
   </g>
 
   <!-- Status Stamp -->

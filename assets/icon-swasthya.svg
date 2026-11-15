@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" width="72" height="72" shape-rendering="crispEdges">
+  <rect width="72" height="72" rx="6" fill="#161B22" stroke="#30363D" stroke-width="1.5"/>
+  <!-- Green cross (medical symbol) -->
+  <rect x="28" y="16" width="16" height="40" rx="2" fill="#39D353" opacity="0.9"/>
+  <rect x="16" y="28" width="40" height="16" rx="2" fill="#39D353" opacity="0.9"/>
+  <!-- Inner white highlight on cross -->
+  <rect x="32" y="20" width="8" height="32" rx="1" fill="#161B22" opacity="0.3"/>
+  <rect x="20" y="32" width="32" height="8" rx="1" fill="#161B22" opacity="0.3"/>
+  <!-- AI dot nodes at cross tips -->
+  <rect x="26" y="12" width="4" height="4" fill="#1F6FEB"/>
+  <rect x="42" y="12" width="4" height="4" fill="#1F6FEB"/>
+  <rect x="26" y="56" width="4" height="4" fill="#1F6FEB"/>
+  <rect x="42" y="56" width="4" height="4" fill="#1F6FEB"/>
+  <rect x="10" y="26" width="4" height="4" fill="#1F6FEB"/>
+  <rect x="10" y="42" width="4" height="4" fill="#1F6FEB"/>
+  <rect x="58" y="26" width="4" height="4" fill="#1F6FEB"/>
+  <rect x="58" y="42" width="4" height="4" fill="#1F6FEB"/>
+  <!-- Center pulse dot -->
+  <rect x="33" y="33" width="6" height="6" fill="#F0F6FC"/>
+  <rect x="34" y="34" width="4" height="4" fill="#39D353">
+    <animate attributeName="opacity" values="1;0.3;1" dur="1.4s" repeatCount="indefinite"/>
+  </rect>
+</svg>
