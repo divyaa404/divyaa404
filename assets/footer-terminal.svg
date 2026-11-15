@@ -14,6 +14,6 @@
   </style>
   <rect x="2" y="2" width="896" height="46" rx="6" fill="url(#footerBg)" stroke="#30363D" stroke-width="1.5"/>
   <text x="20" y="29" class="mono-accent">&gt;</text>
-  <text x="36" y="29" class="mono-cmd">echo &quot;Architecting high-impact systems. Open for visionary engineering collaborations.&quot;</text>
-  <rect x="800" y="19" width="7" height="13" class="cursor"/>
+  <text x="36" y="29" class="mono-cmd">echo &quot;Building technology-driven solutions. Open for visionary AI/ML collaborations. Target: GATE &apos;27 CSE.&quot;</text>
+  <rect x="850" y="19" width="7" height="13" class="cursor"/>
 </svg>

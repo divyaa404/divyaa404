@@ -27,7 +27,7 @@ jobs:
       - name: 📡 Fetch Real Live GitHub Stats & Generate Pixel SVG
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_USERNAME: 'indresh404'
+          GH_USERNAME: 'divyaa404'
         run: |
           node scripts/generate-stats.js
 

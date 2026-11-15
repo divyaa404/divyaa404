@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" width="72" height="72" shape-rendering="crispEdges">
+  <defs>
+    <filter id="glow-syn" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="2" flood-color="#39D353" flood-opacity="0.8"/>
+    </filter>
+  </defs>
+  <!-- Card Background -->
+  <rect x="0" y="0" width="72" height="72" rx="10" fill="#161B22" stroke="#30363D" stroke-width="2"/>
+
+  <!-- Graph Connections (Diagonal & Horizontal Circuit Tracks) -->
+  <line x1="36" y1="22" x2="22" y2="36" stroke="#1F6FEB" stroke-width="2"/>
+  <line x1="36" y1="22" x2="50" y2="36" stroke="#1F6FEB" stroke-width="2"/>
+  <line x1="22" y1="36" x2="28" y2="52" stroke="#30363D" stroke-width="2"/>
+  <line x1="50" y1="36" x2="44" y2="52" stroke="#30363D" stroke-width="2"/>
+  <line x1="28" y1="52" x2="44" y2="52" stroke="#39D353" stroke-width="1.5" stroke-dasharray="2,2"/>
+  <line x1="36" y1="22" x2="36" y2="52" stroke="#39D353" stroke-width="1.5"/>
+
+  <!-- Central Identity Node (Top Core) -->
+  <rect x="32" y="18" width="8" height="8" fill="#F0F6FC"/>
+  <rect x="34" y="20" width="4" height="4" fill="#39D353"/>
+
+  <!-- Left Satellite Node (Identity Attestation) -->
+  <rect x="18" y="32" width="8" height="8" fill="#163B63"/>
+  <rect x="20" y="34" width="4" height="4" fill="#1F6FEB"/>
+
+  <!-- Right Satellite Node (Data Vault) -->
+  <rect x="46" y="32" width="8" height="8" fill="#163B63"/>
+  <rect x="48" y="34" width="4" height="4" fill="#1F6FEB"/>
+
+  <!-- Bottom Left Graph Leaf -->
+  <rect x="25" y="49" width="6" height="6" fill="#238636"/>
+  <rect x="27" y="51" width="2" height="2" fill="#39D353"/>
+
+  <!-- Bottom Right Graph Leaf -->
+  <rect x="41" y="49" width="6" height="6" fill="#238636"/>
+  <rect x="43" y="51" width="2" height="2" fill="#39D353"/>
+
+  <!-- Pulse Rings on Center Node -->
+  <circle cx="36" cy="22" r="8" fill="none" stroke="#39D353" stroke-width="1" opacity="0.6">
+    <animate attributeName="r" values="5;12;5" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;0;0.8" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>

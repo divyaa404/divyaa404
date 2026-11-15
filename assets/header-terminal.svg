@@ -11,7 +11,6 @@
 
   <style>
     @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
-    @keyframes scan { 0% { transform: translateY(0); } 100% { transform: translateY(100px); } }
     .cursor { animation: blink 1s infinite; fill: #39D353; }
     .mono { font-family: 'Courier New', 'Fira Code', 'Press Start 2P', monospace; font-size: 13px; }
     .pixel-title { font-family: 'Courier New', 'Press Start 2P', monospace; font-size: 15px; font-weight: bold; fill: #39D353; letter-spacing: 1px; }
@@ -31,7 +30,7 @@
   <rect x="44" y="11" width="8" height="8" rx="2" fill="#39D353"/>
 
   <!-- Terminal Window Title -->
-  <text x="70" y="18" class="mono" fill="#9BA3AE" font-size="11">bash - indresh@mainframe: ~/identity (session: 404-active)</text>
+  <text x="70" y="18" class="mono" fill="#9BA3AE" font-size="11">bash - divya@mainframe: ~/identity (session: divyaa404-active)</text>
 
   <!-- Live Status Chip on Top Right -->
   <rect x="735" y="7" width="145" height="16" rx="4" fill="#161B22" stroke="#39D353" stroke-width="1" stroke-opacity="0.4"/>
@@ -41,9 +40,9 @@
   <text x="758" y="18" class="status-badge">SYSTEM // ONLINE</text>
 
   <!-- Terminal Body Command Line -->
-  <text x="24" y="58" class="pixel-title">&gt; INDRESH_SURESH_PATHINENCHIL --terminal-init</text>
-  <rect x="530" y="46" width="9" height="15" class="cursor"/>
+  <text x="24" y="58" class="pixel-title">&gt; DIVYA_SHARMA --terminal-init --role=engineer</text>
+  <rect x="525" y="46" width="9" height="15" class="cursor"/>
 
   <!-- Secondary Metadata Line -->
-  <text x="24" y="80" class="subtext">ARCHITECTURE: DISTRIBUTED &amp; AUTONOMOUS SYSTEMS | DEV_TIER: LEGEND (#5) | STACK: FULL_STACK + AI</text>
+  <text x="24" y="80" class="subtext">ARCHITECTURE: AI/ML &amp; EDGE SYSTEMS | TOP 25 GLOBAL @ HACKHAZARDS &apos;26 | GATE 2027 CSE (IIT ASPIRANT)</text>
 </svg>

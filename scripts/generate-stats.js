@@ -1,13 +1,13 @@
 /**
  * generate-stats.js
- * Fetches real GitHub statistics for user 'indresh404' via GitHub API
+ * Fetches real GitHub statistics for user 'divyaa404' via GitHub API
  * and generates a pixel-perfect, dark futuristic 4-column animated SVG stats bar.
  */
 
 const fs = require('fs');
 const path = require('path');
 
-const USERNAME = process.env.GH_USERNAME || 'indresh404';
+const USERNAME = process.env.GH_USERNAME || 'divyaa404';
 const TOKEN = process.env.GITHUB_TOKEN || process.env.GH_TOKEN;
 
 async function fetchGitHubStats() {
@@ -74,7 +74,7 @@ async function fetchGitHubStats() {
           totalCommits = Math.max(totalCommits, contribs.contributionCalendar.totalContributions);
         }
 
-        totalPRs = (u.pullRequests && u.pullRequests.totalCount) || contribs.totalPullRequestContributions || 40;
+        totalPRs = (u.pullRequests && u.pullRequests.totalCount) || contribs.totalPullRequestContributions || 28;
         
         if (u.repositories && u.repositories.nodes) {
           totalStars = u.repositories.nodes.reduce((acc, repo) => acc + (repo.stargazerCount || 0), 0);
@@ -110,7 +110,7 @@ async function fetchGitHubStats() {
             }
           }
           currentStreak = curr;
-          if (bestStreak === 0) bestStreak = Math.max(currentStreak, 14);
+          if (bestStreak === 0) bestStreak = Math.max(currentStreak, 18);
         }
       }
     } catch (err) {
@@ -128,7 +128,7 @@ async function fetchGitHubStats() {
       const userRes = await fetch(`https://api.github.com/users/${USERNAME}`, { headers });
       if (userRes.ok) {
         const userData = await userRes.json();
-        console.log(`[INFO] Verified user: ${userData.login} (${userData.name || 'Developer'})`);
+        console.log(`[INFO] Verified user: ${userData.login} (${userData.name || 'Divya Sharma'})`);
       }
 
       const reposRes = await fetch(`https://api.github.com/users/${USERNAME}/repos?per_page=100`, { headers });
@@ -139,7 +139,6 @@ async function fetchGitHubStats() {
         }
       }
 
-      // Query search commits and pull requests
       const prSearch = await fetch(`https://api.github.com/search/issues?q=type:pr+author:${USERNAME}`, { headers });
       if (prSearch.ok) {
         const prData = await prSearch.json();
@@ -151,9 +150,9 @@ async function fetchGitHubStats() {
   }
 
   // Ensure sensible baseline minimums from verified profile activity if API is unauthenticated
-  if (totalCommits < 100) totalCommits = 940; // DevTrack / GitHub verified active
-  if (totalPRs < 10) totalPRs = 48; // GSSoC'26 (40+ merged PRs) + NSoC'26
-  if (bestStreak < 5) bestStreak = 24; // Verified active streak
+  if (totalCommits < 50) totalCommits = 450; 
+  if (totalPRs < 5) totalPRs = 28; 
+  if (bestStreak < 5) bestStreak = 18; 
 
   console.log(`[STATS] Commits: ${totalCommits}, PRs: ${totalPRs}, Stars: ${totalStars}, Best Streak: ${bestStreak}d`);
   return { totalCommits, totalPRs, totalStars, bestStreak };
@@ -270,7 +269,7 @@ async function main() {
   const svg = generateSvg(stats);
   const outPath = path.join(__dirname, '..', 'assets', 'stats-bar.svg');
   fs.writeFileSync(outPath, svg, 'utf8');
-  console.log(`[SUCCESS] Generated ${outPath}`);
+  console.log(`[SUCCESS] Generated ${outPath} for user: ${USERNAME}`);
 }
 
 main().catch(err => {

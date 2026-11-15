@@ -13,9 +13,8 @@
     @keyframes pulseLed { 0%, 100% { opacity: 0.9; } 50% { opacity: 0.3; } }
     .term-head { font-family: 'Courier New', monospace; font-size: 11px; fill: #9BA3AE; }
     .item-title { font-family: 'Courier New', 'Press Start 2P', monospace; font-size: 13px; font-weight: bold; fill: #F0F6FC; }
-    .item-tag { font-family: 'Courier New', monospace; font-size: 11px; fill: #39D353; font-weight: bold; }
     .item-desc { font-family: 'Courier New', monospace; font-size: 11px; fill: #8B949E; }
-    .verified-badge { font-family: 'Courier New', monospace; font-size: 9px; fill: #1F6FEB; font-weight: bold; }
+    .verified-badge { font-family: 'Courier New', monospace; font-size: 9px; fill: #39D353; font-weight: bold; }
     .led { animation: pulseLed 1.6s infinite; }
   </style>
 
@@ -25,35 +24,35 @@
   <!-- Top Terminal Header Bar -->
   <path d="M2 10 C2 5, 5 2, 10 2 L890 2 C895 2, 898 5, 898 10 L898 28 L2 28 Z" fill="#21262D" stroke="#30363D" stroke-width="1"/>
   <circle cx="16" cy="15" r="4" fill="#39D353" class="led"/>
-  <text x="28" y="19" class="term-head">syslog - /var/log/achievements.verified --status=VALIDATED</text>
+  <text x="28" y="19" class="term-head">syslog - /var/log/divya_achievements.verified --status=AUTHENTICATED</text>
 
   <!-- Left Column Items -->
   <!-- Item 1 -->
   <g transform="translate(24, 46)">
     <rect x="0" y="0" width="8" height="8" fill="#39D353"/>
-    <text x="16" y="8" class="item-title">GLOBAL HACKATHON TRACK WINNER</text>
-    <text x="16" y="22" class="item-desc">First Place in Global Innovation Track &amp; System Architecture</text>
+    <text x="16" y="8" class="item-title">GLOBAL WINNER (TOP 25) @ HACKHAZARDS &apos;26</text>
+    <text x="16" y="22" class="item-desc">Top 25 Worldwide at HACKHAZARDS &apos;26 (Namespace Global Hackathon)</text>
   </g>
 
   <!-- Item 2 -->
   <g transform="translate(24, 92)">
     <rect x="0" y="0" width="8" height="8" fill="#1F6FEB"/>
-    <text x="16" y="8" class="item-title">TOP 25 GLOBAL DEVELOPER RANKING</text>
-    <text x="16" y="22" class="item-desc">Global Legend Tier (#5 DevTrack) • High Impact Metrics</text>
+    <text x="16" y="8" class="item-title">RANK 1 — RENDER TRACK @ HACKHAZARDS &apos;26</text>
+    <text x="16" y="22" class="item-desc">1st Place in Global Render Innovation Track • Namespace Community</text>
   </g>
 
   <!-- Item 3 -->
   <g transform="translate(24, 138)">
     <rect x="0" y="0" width="8" height="8" fill="#39D353"/>
-    <text x="16" y="8" class="item-title">2× NATIONAL HACKATHON WINNER</text>
-    <text x="16" y="22" class="item-desc">Champion in national-tier competitive engineering hackathons</text>
+    <text x="16" y="8" class="item-title">TOP 20 PROJECT KERNELS @ NSoC &apos;26</text>
+    <text x="16" y="22" class="item-desc">Certificate of Excellence • Nexus Spring of Code 2026</text>
   </g>
 
   <!-- Item 4 -->
   <g transform="translate(24, 184)">
     <rect x="0" y="0" width="8" height="8" fill="#E3B341"/>
-    <text x="16" y="8" class="item-title">NSoC &apos;26 WINNER</text>
-    <text x="16" y="22" class="item-desc">National Summer of Code 2026 Winner for Open Source Excellence</text>
+    <text x="16" y="8" class="item-title">MOCHATRADE 3RD PRIZE &amp; GEEKS2CODE FINALIST</text>
+    <text x="16" y="22" class="item-desc">₹7,000 Cash Prize Winner • Geeks2Code 3rd Runners Up • HACKNEXT 1.0</text>
   </g>
 
   <!-- Divider Line -->
@@ -63,28 +62,28 @@
   <!-- Item 5 -->
   <g transform="translate(480, 46)">
     <rect x="0" y="0" width="8" height="8" fill="#39D353"/>
-    <text x="16" y="8" class="item-title">GSSoC &apos;26 CONTRIBUTOR (40+ PRs)</text>
-    <text x="16" y="22" class="item-desc">GirlScript Summer of Code 2026 • 40+ Production Pull Requests Merged</text>
+    <text x="16" y="8" class="item-title">CMO @ GULLYGIG</text>
+    <text x="16" y="22" class="item-desc">Chief Marketing Officer &amp; Strategy • Local skilled worker opportunity network</text>
   </g>
 
   <!-- Item 6 -->
   <g transform="translate(480, 92)">
     <rect x="0" y="0" width="8" height="8" fill="#1F6FEB"/>
-    <text x="16" y="8" class="item-title">NSoC &apos;26 PROJECT ADMIN</text>
-    <text x="16" y="22" class="item-desc">Open Source Mentor &amp; Project Administrator for national contributors</text>
+    <text x="16" y="8" class="item-title">INDIGO SQUAD @ MOOD INDIGO (IIT BOMBAY)</text>
+    <text x="16" y="22" class="item-desc">Selected squad leader at Asia&apos;s largest college cultural festival</text>
   </g>
 
   <!-- Item 7 -->
   <g transform="translate(480, 138)">
     <rect x="0" y="0" width="8" height="8" fill="#E3B341"/>
-    <text x="16" y="8" class="item-title">NATIONAL HACKATHON FINALIST</text>
-    <text x="16" y="22" class="item-desc">Selected among top engineering teams across India</text>
+    <text x="16" y="8" class="item-title">EX-UI/UX INTERN @ ZENIX EV &amp; ATHLETE</text>
+    <text x="16" y="22" class="item-desc">2nd in 2,000m Steeplechase; 3rd in 10,000m; Zenix EV Automotive UI/UX</text>
   </g>
 
   <!-- Status Stamp -->
   <g transform="translate(480, 184)">
     <rect x="0" y="0" width="380" height="28" rx="4" fill="#10141A" stroke="#30363D" stroke-width="1"/>
     <circle cx="14" cy="14" r="3.5" fill="#39D353"/>
-    <text x="26" y="18" class="verified-badge">[VERIFIED RECORD: 7/7 MILESTONES AUTHENTICATED]</text>
+    <text x="26" y="18" class="verified-badge">[OFFICIAL RECORD: DIVYA SHARMA • SLRTCE • GATE 2027 CSE]</text>
   </g>
 </svg>
