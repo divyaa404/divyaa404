@@ -17,27 +17,19 @@
   <img src="./assets/section-stats.svg" width="100%" alt="> TELEMETRY // STATS" />
 </p>
 
-<p align="center">
-  <a href="https://github.com/divyaa404">
-    <img src="./assets/stats-bar.svg" width="100%" alt="All-Time GitHub Stats" />
-  </a>
-</p>
 
 <p align="center">
   <a href="https://github.com/divyaa404">
-    <img src="https://github-readme-stats-fast.vercel.app/api?username=divyaa404&show_icons=true&include_all_commits=true&count_private=true&bg_color=161B22&border_color=30363D&title_color=39D353&text_color=F0F6FC&icon_color=39D353&border_radius=8" height="175" alt="GitHub Stats" />
+    <img src="https://github-readme-stats-fast.vercel.app/api?username=divyaa404&show_icons=true&include_all_commits=true&count_private=true&bg_color=161B22&border_color=30363D&title_color=39D353&text_color=F0F6FC&icon_color=39D353&border_radius=8" width="32%" height="175" alt="GitHub Stats" />
   </a>
-  &nbsp;&nbsp;
+  <a href="https://streak-stats.demolab.com/?user=divyaa404&background=161B22&border=30363D&stroke=39D353&ring=39D353&fire=39D353&currStreakNum=39D353&sideNums=F0F6FC&currStreakLabel=39D353&sideLabels=9BA3AE&dates=9BA3AE&border_radius=8">
+    <img src="https://streak-stats.demolab.com/?user=divyaa404&background=161B22&border=30363D&stroke=39D353&ring=39D353&fire=39D353&currStreakNum=39D353&sideNums=F0F6FC&currStreakLabel=39D353&sideLabels=9BA3AE&dates=9BA3AE&border_radius=8" width="32%" height="175" alt="Contribution Streak" />
+  </a>
   <a href="https://github.com/divyaa404">
-    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=divyaa404&layout=compact&bg_color=161B22&border_color=30363D&title_color=39D353&text_color=F0F6FC&border_radius=8&langs_count=6" height="175" alt="Most Used Languages" />
+    <img src="https://github-readme-stats-fast.vercel.app/api/top-langs?username=divyaa404&layout=compact&bg_color=161B22&border_color=30363D&title_color=39D353&text_color=F0F6FC&border_radius=8&langs_count=6" width="28%" height="155" alt="Most Used Languages" />
   </a>
 </p>
 
-<p align="center">
-  <a href="https://github.com/divyaa404">
-    <img src="https://streak-stats.demolab.com/?user=divyaa404&background=161B22&border=30363D&stroke=39D353&ring=39D353&fire=39D353&currStreakNum=39D353&sideNums=F0F6FC&currStreakLabel=39D353&sideLabels=9BA3AE&dates=9BA3AE&border_radius=8" width="68%" alt="Contribution Streak" />
-  </a>
-</p>
 
 <br/>
 
@@ -215,9 +207,46 @@
   </a>
 </p>
 
-| <img src="./assets/icons/2.png" width="135" alt="HACKHAZARDS '26 Global Winner Top 25" /><br/>**GLOBAL WINNER — TOP 25**<br/>HACKHAZARDS '26 · Namespace | <img src="./assets/icons/3.png" width="135" alt="HACKHAZARDS '26 Rank 1 Render Track" /><br/>**RANK 1 — RENDER TRACK**<br/>HACKHAZARDS '26 Innovation | <img src="./assets/icons/4.png" width="135" alt="NSoC '26 Top 20 Project Kernels" /><br/>**TOP 20 PROJECT KERNELS**<br/>Nexus Spring of Code 2026 |
-| :---: | :---: | :---: |
-| <img src="./assets/icons/1.png" width="135" alt="HACKNEXT 1.0 2026" /><br/>**HACKNEXT 1.0 2026**<br/>CSI TCET & Athera AI Club | <img src="./assets/icons/6.png" width="135" alt="MochaTrade 3rd Prize Winner" /><br/>**3RD PRIZE (₹7,000)**<br/>MochaTrade Confederation | <img src="./assets/icons/5.png" width="135" alt="Geeks2Code 3rd Runners Up" /><br/>**3RD RUNNERS UP**<br/>Geeks2Code (GFG Campus) |
+<!-- ================================================================= -->
+<!--                 HACKATHON ACHIEVEMENTS — SINGLE ROW                -->
+<!-- ================================================================= -->
+
+<div align="center">
+  <table width="100%">
+    <tr>
+      <td align="center" width="16.66%">
+        <img src="./assets/icons/2.png" width="115" alt="HACKHAZARDS Global Winner" /><br/><br/>
+        <b>GLOBAL WINNER — TOP 25</b><br/>
+        <sub>HACKHAZARDS '26 · Namespace</sub>
+      </td>
+      <td align="center" width="16.66%">
+        <img src="./assets/icons/3.png" width="115" alt="Render Track Rank 1" /><br/><br/>
+        <b>RANK 1 — RENDER TRACK</b><br/>
+        <sub>HACKHAZARDS '26 · Innovation</sub>
+      </td>
+      <td align="center" width="16.66%">
+        <img src="./assets/icons/4.png" width="115" alt="NSoC Top 20" /><br/><br/>
+        <b>TOP 20 PROJECT KERNELS</b><br/>
+        <sub>Nexus Spring of Code 2026</sub>
+      </td>
+      <td align="center" width="16.66%">
+        <img src="./assets/icons/1.png" width="115" alt="HackNext 1.0" /><br/><br/>
+        <b>HACKNEXT 1.0 2026</b><br/>
+        <sub>CSI TCET & Athera AI Club</sub>
+      </td>
+      <td align="center" width="16.66%">
+        <img src="./assets/icons/6.png" width="115" alt="MochaTrade 3rd Prize" /><br/><br/>
+        <b>3RD PRIZE — ₹7,000</b><br/>
+        <sub>MochaTrade Confederation</sub>
+      </td>
+      <td align="center" width="16.66%">
+        <img src="./assets/icons/5.png" width="115" alt="Geeks2Code 3rd Runners Up" /><br/><br/>
+        <b>3RD RUNNERS-UP</b><br/>
+        <sub>Geeks2Code · GFG Campus</sub>
+      </td>
+    </tr>
+  </table>
+</div>
 
 <br/>
 
